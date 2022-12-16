@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var array : [String] = []
+    
+    let url = URL(string: "https://data.cityofchicago.org/resource/aavc-b2wj.json")
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        getData()
+    }
+    
+    func getData() {
+        
     }
 
-
+    
+    
 }
 
