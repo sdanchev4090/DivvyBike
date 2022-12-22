@@ -13,6 +13,8 @@
 		5B5793A8294A39CE0008BF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5793A6294A39CE0008BF47 /* Main.storyboard */; };
 		5B5793AA294A39D10008BF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5793A9294A39D10008BF47 /* Assets.xcassets */; };
 		5B5793AD294A39D10008BF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5793AB294A39D10008BF47 /* LaunchScreen.storyboard */; };
+		5BC8882B2954ACFE00CDBE29 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8882A2954ACFE00CDBE29 /* Station.swift */; };
+		5BC8882D2954B56400CDBE29 /* Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8882C2954B56400CDBE29 /* Icon.jpeg */; };
 		5BE5ADF8294CD4DE00B30F76 /* Divvy-Header-Logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5ADF7294CD4DE00B30F76 /* Divvy-Header-Logo.svg */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		5B5793A9294A39D10008BF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B5793AC294A39D10008BF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5793AE294A39D10008BF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8882A2954ACFE00CDBE29 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		5BC8882C2954B56400CDBE29 /* Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpeg; sourceTree = "<group>"; };
 		5BE5ADF7294CD4DE00B30F76 /* Divvy-Header-Logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Divvy-Header-Logo.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,11 +65,13 @@
 				5B5793A0294A39CE0008BF47 /* AppDelegate.swift */,
 				5B5793A2294A39CE0008BF47 /* SceneDelegate.swift */,
 				5B5793A4294A39CE0008BF47 /* ViewController.swift */,
+				5BC8882A2954ACFE00CDBE29 /* Station.swift */,
 				5B5793A6294A39CE0008BF47 /* Main.storyboard */,
 				5B5793A9294A39D10008BF47 /* Assets.xcassets */,
 				5B5793AB294A39D10008BF47 /* LaunchScreen.storyboard */,
 				5B5793AE294A39D10008BF47 /* Info.plist */,
 				5BE5ADF7294CD4DE00B30F76 /* Divvy-Header-Logo.svg */,
+				5BC8882C2954B56400CDBE29 /* Icon.jpeg */,
 			);
 			path = DivvyBike;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 				5B5793AD294A39D10008BF47 /* LaunchScreen.storyboard in Resources */,
 				5BE5ADF8294CD4DE00B30F76 /* Divvy-Header-Logo.svg in Resources */,
 				5B5793AA294A39D10008BF47 /* Assets.xcassets in Resources */,
+				5BC8882D2954B56400CDBE29 /* Icon.jpeg in Resources */,
 				5B5793A8294A39CE0008BF47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 			files = (
 				5B5793A5294A39CE0008BF47 /* ViewController.swift in Sources */,
 				5B5793A1294A39CE0008BF47 /* AppDelegate.swift in Sources */,
+				5BC8882B2954ACFE00CDBE29 /* Station.swift in Sources */,
 				5B5793A3294A39CE0008BF47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
